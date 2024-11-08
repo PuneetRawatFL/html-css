@@ -1,0 +1,52 @@
+/* universal tags */
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* body tag */
+body {
+    background-image: url("cherry.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+/* this is a comment */
+
+/* using class name */
+.heading {
+    background-color: bisque;
+    text-align: center;
+    color: brown;
+}
+
+/* using id name */
+#heading-two {
+    background-color: aquamarine;
+    margin: auto;
+}
+
+/* using tag name */
+h3,
+h4,
+h5,
+h6 {
+    color: blue;
+}
+
+/* styling image tag */
+img {
+    border: 2px solid black;
+    border-color: blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+pre {
+    border: 2px solid black;
+    outline: #4caf50 solid 10px;
+    outline-width: 4px;
+    /* offset sets gap between the border and outline */
+    outline-offset: 5px;
+}
